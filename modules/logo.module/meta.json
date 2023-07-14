@@ -1,0 +1,23 @@
+{
+  "label": "Logo",
+  "host_template_types": [
+    "ANY"
+  ],
+  "icon": "../img/icon/edited-logo.svg",
+  "extra_classes": "widget-type-logo",
+  "smart_type": "NOT_SMART",
+  "master_language": "en",
+  "categories": [
+    "media"
+  ],
+  "content_tags": [
+    {
+      "name": "OTHER_INDUSTRY",
+      "source": "MARKETPLACE"
+    },
+    {
+      "name": "COMPATIBLE_ANY",
+      "source": "MARKETPLACE"
+    }
+  ]
+}
