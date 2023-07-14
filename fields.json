@@ -5,7 +5,7 @@
     "type": "group",
     "children": [
       {
-        "label": "Blue",
+        "label": "Blue1",
         "name": "blue",
         "type": "color",
         "alternate_names": ["blue"],
