@@ -8,7 +8,6 @@
         "label": "Blue1",
         "name": "blue",
         "type": "color",
-        "alternate_names": ["blue"],
         "visibility": {
           "hidden_subfields": {
             "opacity": true
@@ -22,7 +21,6 @@
         "label": "Red",
         "name": "red",
         "type": "color",
-        "alternate_names": ["red"],
         "visibility": {
           "hidden_subfields": {
             "opacity": true
@@ -36,7 +34,6 @@
         "label": "Yellow",
         "name": "yellow",
         "type": "color",
-        "alternate_names": ["yellow"],
         "visibility": {
           "hidden_subfields": {
             "opacity": true
@@ -50,7 +47,6 @@
         "label": "Green",
         "name": "green",
         "type": "color",
-        "alternate_names": ["green"],
         "visibility": {
           "hidden_subfields": {
             "opacity": true
@@ -64,7 +60,6 @@
         "label": "Violet",
         "name": "violet",
         "type": "color",
-        "alternate_names": ["violet"],
         "visibility": {
           "hidden_subfields": {
             "opacity": true
@@ -78,7 +73,6 @@
         "label": "Dark blue",
         "name": "darkblue",
         "type": "color",
-        "alternate_names": ["darkblue"],
         "visibility": {
           "hidden_subfields": {
             "opacity": true
