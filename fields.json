@@ -14,11 +14,6 @@
             "opacity": true
           }
         },
-        //"inherited_value": {
-        //  "property_value_paths": {
-        //   "color": "brand_settings.primaryColor"
-        //  }
-        //},
         "default": {
           "color": "#4EB5FF"
         }
@@ -33,11 +28,6 @@
             "opacity": true
           }
         },
-        //"inherited_value": {
-        //  "property_value_paths": {
-        //    "color": "brand_settings.colors[1]"
-        //  }
-       // },
         "default": {
           "color": "#FF5450"
         }
@@ -52,11 +42,6 @@
             "opacity": true
           }
         },
-        //"inherited_value": {
-        //  "property_value_paths": {
-        //    "color": "brand_settings.colors[2]"
-        //  }
-        //},
         "default": {
           "color": "#F9DF4B"
         }
@@ -71,11 +56,6 @@
             "opacity": true
           }
         },
-        //"inherited_value": {
-        //  "property_value_paths": {
-        //    "color": "brand_settings.colors[3]"
-        //  }
-        //},
         "default": {
           "color": "#04D082"
         }
@@ -90,11 +70,6 @@
             "opacity": true
           }
         },
-        //"inherited_value": {
-        //  "property_value_paths": {
-        //    "color": "brand_settings.colors[4]"
-        //  }
-        //},
         "default": {
           "color": "#9967F7"
         }
@@ -109,11 +84,6 @@
             "opacity": true
           }
         },
-        //"inherited_value": {
-        //  "property_value_paths": {
-        //    "color": "brand_settings.colors[5]"
-        //  }
-        //},
         "default": {
           "color": "#110A3A"
         }
