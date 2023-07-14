@@ -11,7 +11,7 @@ jobs:
       - name: HubSpot CMS Deploy
         uses: HubSpot/hubspot-cms-deploy-action@v1.6
         with:
-          src_dir: https://github.com/Maciek-Magician/flink_forward_website.git
-          dest_dir: https://app.hubspot.com/design-manager/4757017
+          src_dir: .
+          dest_dir: /Flink Forward 2023
           portal_id: ${{ secrets.hubspot_portal_id }}
           personal_access_key: ${{ secrets.hubspot_personal_access_key }}
