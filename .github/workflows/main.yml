@@ -12,6 +12,6 @@ jobs:
         uses: HubSpot/hubspot-cms-deploy-action@v1.6
         with:
           src_dir: .
-          dest_dir: /Flink Forward 2023
+          dest_dir: /flink_forward_2023
           portal_id: ${{ secrets.hubspot_portal_id }}
           personal_access_key: ${{ secrets.hubspot_personal_access_key }}
