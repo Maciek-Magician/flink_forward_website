@@ -789,7 +789,7 @@
                 "type": "color",
                 "inherited_value": {
                   "property_value_paths": {
-                    "color": "theme.global_colors.secondary.color"
+                    "color": "theme.global_colors.darkblue.color"
                   }
                 },
                 "default": {
@@ -1421,7 +1421,7 @@
                 "type": "color",
                 "inherited_value": {
                   "property_value_paths": {
-                    "color": "theme.global_colors.secondary.color"
+                    "color": "theme.global_colors.darkblue.color"
                   }
                 },
                 "default": {
@@ -1971,7 +1971,7 @@
             "type": "color",
             "inherited_value": {
               "property_value_paths": {
-                "color": "theme.global_colors.secondary.color"
+                "color": "theme.global_colors.darkblue.color"
               }
             },
             "default": {
@@ -2020,7 +2020,7 @@
             "type": "color",
             "inherited_value": {
               "property_value_paths": {
-                "color": "theme.global_colors.secondary.color"
+                "color": "theme.global_colors.darkblue.color"
               }
             },
             "default": {
