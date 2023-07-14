@@ -1,0 +1,2 @@
+- name: HubSpot CMS Deploy
+  uses: HubSpot/hubspot-cms-deploy-action@v1.6
