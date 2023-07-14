@@ -1,0 +1,20 @@
+{
+  "label": "Flink Forward 2023 website",
+  "author": {
+    "name": "Ververica",
+    "email": "contact@ververica.com",
+    "url": "https://www.ververica.com/"
+	},
+  "preview_path": "./templates/home.html",
+  "screenshot_path": "./images/template-previews/ff_logo.png",
+  "enable_domain_stylesheets": false,
+  "responsive_breakpoints": [
+    {
+      "name": "mobile",
+      "mediaQuery": "@media (max-width: 767px)",
+      "previewWidth": {
+        "value": 477
+      }
+    }
+  ]
+}
