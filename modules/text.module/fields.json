@@ -1,15 +1,121 @@
 [
   {
-    "id": "08eaed43-5c2a-4d2e-1814-d370b0f2abab",
-    "name": "value",
-    "label": "Text",
-    "sortable": false,
-    "required": false,
-    "locked": false,
-    "validation_regex": "",
-    "allow_new_line": false,
-    "show_emoji_picker": false,
-    "type": "text",
-    "default": "Some additional information in one line"
+   "allow_new_line": false,
+   "default": "Some additional information in one line",
+   "display_width": null,
+   "id": "08eaed43-5c2a-4d2e-1814-d370b0f2abab",
+   "label": "Text",
+   "locked": false,
+   "name": "value",
+   "required": false,
+   "show_emoji_picker": false,
+   "type": "text",
+   "validation_regex": ""
+  },
+  {
+    "label": "Styles",
+    "name": "styles",
+    "type": "group",
+    "tab": "STYLE",
+    "children": [
+      {
+        "label": "Text",
+        "name": "text",
+        "type": "group",
+        "children": [
+          {
+            "label": "Blue",
+            "name": "blue",
+            "type": "color",
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              }
+            },
+            "default": {
+              "color": "#4EB5FF"
+            }
+          },
+          {
+            "label": "Red",
+            "name": "red",
+            "type": "color",
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              }
+            },
+            "default": {
+              "color": "#FF5450"
+            }
+          },
+          {
+            "label": "Yellow",
+            "name": "yellow",
+            "type": "color",
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              }
+            },
+            "default": {
+              "color": "#F9DF4B"
+            }
+          },
+          {
+            "label": "Green",
+            "name": "green",
+            "type": "color",
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              }
+            },
+            "default": {
+              "color": "#04D082"
+            }
+          },
+          {
+            "label": "Violet",
+            "name": "violet",
+            "type": "color",
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              }
+            },
+            "default": {
+              "color": "#9967F7"
+            }
+          },
+          {
+            "label": "Dark blue",
+            "name": "darkblue",
+            "type": "color",
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              }
+            },
+            "default": {
+              "color": "#110A3A"
+            }
+          },
+          {
+            "label": "Font color",
+            "name": "font_color",
+            "type": "color",
+            "visibility": {
+              "hidden_subfields": {
+                "opacity": true
+              }
+            },
+            "default": {
+              "color": "#000000"
+            }
+          }
+        ]
+      }
+    ]
   }
 ]
