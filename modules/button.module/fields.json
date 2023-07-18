@@ -104,13 +104,13 @@
         ]
       },
       {        
-        "label" : "Bg Color",
-        "name" : "bg_color",
+        "label" : "Background color",
+        "name" : "background_color",
         "type" : "choice",
         "children":[
           {
-            "label" : "Bg Color",
-            "name" : "bg_color",
+            "label" : "Background color",
+            "name" : "background_color",
             "type" : "choice",
             "display" : "select",        
             "multiple":"false",
