@@ -13,11 +13,11 @@
       {% endif %}
 
       {# Button #}
-
       .button {
-        {% if module.styles.background.color.color %}
+       {# {% if module.styles.background.color.color %}
           background-color: rgba({{ module.styles.background.color.color|convert_rgb }}, {{ module.styles.background.color.opacity / 100 }});
-        {% endif %}
+        {% endif %}#}
+        background-color: {{module.styles.bg_color.value}}
         {{ module.styles.border.border.css }}
         {% if module.styles.corner.radius >= 0 %}
           border-radius: {{ module.styles.corner.radius ~ "px" }};
@@ -67,3 +67,6 @@
     {{ module.button_text }}
   </a>
 </div>
+<script>
+console.log({{module.styles.bg_color.value}})
+</script>
