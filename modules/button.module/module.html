@@ -15,8 +15,8 @@
       {# Button #}
 
       .button {
-        {% if module.styles.background.color.color %}
-          background-color: rgba({{ module.styles.background.color.color|convert_rgb }}, {{ module.styles.background.color.opacity / 100 }});
+        {% if module.styles.bg_color.value %}
+          background-color: rgba({{ module.styles.bg_color.value|convert_rgb }});
         {% endif %}
         {{ module.styles.border.border.css }}
         {% if module.styles.corner.radius >= 0 %}
