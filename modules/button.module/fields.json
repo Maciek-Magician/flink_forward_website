@@ -102,22 +102,6 @@
             "alignment_direction": "HORIZONTAL"
           }
         ]
-      },
-      {        
-        "label" : "Background color",
-        "name" : "background_color",
-        "type" : "choice",
-        "children":[
-          {
-            "label" : "Background color",
-            "name" : "background_color",
-            "type" : "choice",
-            "display" : "select",        
-            "multiple":"false",
-            "choices" : [ [  "theme.global_colors.blue", "Blue" ], [ "theme.global_colors.red", "Red" ] ],
-            "default" : "blue"
-          }
-        ]
       }
     ]
   }
