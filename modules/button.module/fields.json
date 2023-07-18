@@ -102,7 +102,18 @@
             "alignment_direction": "HORIZONTAL"
           }
         ]
-      }
+      },
+      {
+        "name" : "img_position",
+        "label" : "Image Position",
+        "required" : false,
+        "locked" : false,
+        "multiple":"true",
+        "display" : "select",
+        "choices" : [ [ "img--left", "Image Left - Text Right" ], [ "img--right", "Text Left - Image Right" ] ],
+        "type" : "choice",
+        "default" : "img--left"
+  }
     ]
   }
 ]
