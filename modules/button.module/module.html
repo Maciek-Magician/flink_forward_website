@@ -35,7 +35,7 @@
 
       .button:active {
         {% if module.styles.bg_color %}
-          background-color: rgba({{ color_variant(module.styles.bg_color, 80)|convert_rgb }});
+          background-color: rgba({{ color_variant(module.styles.background.color.color, 80)|convert_rgb }}, {{ module.styles.background.color.opacity / 100 }});
         {% endif %}
       }
 
