@@ -15,9 +15,8 @@
       {# Button #}
 
       .button {
-        {% if module.styles.bg_color.value %}
           background-color: {{ module.styles.bg_color.value }};
-        {% endif %}
+
         {{ module.styles.border.border.css }}
         {% if module.styles.corner.radius >= 0 %}
           border-radius: {{ module.styles.corner.radius ~ "px" }};
