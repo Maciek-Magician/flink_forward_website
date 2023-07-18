@@ -109,7 +109,7 @@
         "type" : "choice",
         "display" : "select",        
         "multiple":"false",
-        "choices" : [ [  "theme.global_colors.blue", "Blue" ], [ "theme.global_colors.red", "Red" ] ],
+        "choices" : [ [  "theme.global_colors.blue.color", "Blue" ], [ "theme.global_colors.red.color", "Red" ] ],
         "default" : "theme.global_colors.blue"
   }
     ]
