@@ -110,7 +110,7 @@
         "display" : "select",
         "multiple":"false",
         "choices" : [ [ "{{ theme.global_colors.blue.rgba }}", "Blue" ], [ "{{ theme.global_colors.red.rgba }}", "Red" ], [ "{{ theme.global_colors.yellow.rgba }}", "Yellow" ], [ "{{ theme.global_colors.green.rgba }}", "Green" ], ["{{ theme.global_colors.violet.rgba }}", "Violet" ], [ "{{ theme.global_colors.darkblue.rgba }}", "Dark blue" ] ],
-        "default" : "1"
+        "default" : "{{ theme.global_colors.blue.rgba }}"
      }
     ]
   }
