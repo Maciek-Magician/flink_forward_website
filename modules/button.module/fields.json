@@ -105,7 +105,7 @@
       },
       {        
         "label" : "Bg Color",
-        "name" : "bg_color",
+        "name" : "bg_color2",
         "type" : "choice",
         "display" : "select",
         "multiple":"false",
