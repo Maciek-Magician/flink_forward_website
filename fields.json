@@ -14,10 +14,7 @@
           }
         },
         "default": {
-          "color": {
-            "hex": "#4EB5FF",
-            "rgba": "rgb(78, 181, 255)"
-          }
+          "color": "#4EB5FF"
         }
       },
       {
@@ -30,10 +27,7 @@
           }
         },
         "default": {
-          "color": {
-            "hex": "#4EB5FF",
-            "rgba": "rgb(78, 181, 255)"
-          }
+          "color": "#FF5450"
         }
       },
       {
@@ -46,10 +40,7 @@
           }
         },
         "default": {
-          "color": {
-            "hex": "#4EB5FF",
-            "rgba": "rgb(78, 181, 255)"
-          }
+          "color": "#F9DF4B"
         }
       },
       {
@@ -62,10 +53,7 @@
           }
         },
         "default": {
-          "color": {
-            "hex": "#4EB5FF",
-            "rgba": "rgb(78, 181, 255)"
-          }
+          "color": "#04D082"
         }
       },
       {
@@ -78,10 +66,7 @@
           }
         },
         "default": {
-          "color": {
-            "hex": "#4EB5FF",
-            "rgba": "rgb(78, 181, 255)"
-          }
+          "color": "#9967F7"
         }
       },
       {
@@ -94,10 +79,7 @@
           }
         },
         "default": {
-          "color": {
-            "hex": "#4EB5FF",
-            "rgba": "rgb(78, 181, 255)"
-          }
+          "color": "#110A3A"
         }
       },
       {
