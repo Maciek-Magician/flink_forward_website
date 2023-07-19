@@ -38,3 +38,21 @@ button:disabled,
   text-decoration: none;
   transition: none;
 }
+.button-1{
+  background-color: var(--blue);
+}
+.button-2{
+  background-color: var(--red);
+}
+.button-3{
+  background-color: var(--yellow);
+}
+.button-4{
+  background-color: var(--green);
+}
+.button-5{
+  background-color: var(--violet);
+}
+.button-6{
+  background-color: var(--darkblue);
+}

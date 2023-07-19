@@ -1,5 +1,12 @@
 /* Theme base styles */
-
+:root{
+    --blue: {{ theme.global_colors.blue.rgba}};
+    --red: {{ theme.global_colors.red.rgba}};
+    --yellow: {{ theme.global_colors.yellow.rgba}};
+    --green: {{ theme.global_colors.green.rgba}};
+    --violet: {{ theme.global_colors.violet.rgba}};
+    --darkblue: {{ theme.global_colors.darkblue.rgba}};
+}
 /* Tools
 Any animations, or functions used throughout the project.
 Note: _macros.css needs to be imported into each stylesheet where macros are used and not included here
