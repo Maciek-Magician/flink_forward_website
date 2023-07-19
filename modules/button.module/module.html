@@ -15,9 +15,9 @@
       {# Button #}
 
       .button {
-        {#{% if module.styles.bg_color %}
-          background-color: rgba({{ module.styles.bg_color|convert_rgb }});
-        {% endif %}#}
+        {% if module.styles.bg_col %}
+          background-color: {{ module.styles.bg_col }};
+        {% endif %}
         {{ module.styles.border.border.css }}
         {% if module.styles.corner.radius >= 0 %}
           border-radius: {{ module.styles.corner.radius ~ "px" }};
@@ -28,14 +28,14 @@
 
       .button:hover,
       .button:focus {
-        {% if module.styles.bg_color %}
-          background-color: rgba({{ color_variant(module.styles.bg_color, -80)|convert_rgb }});
+        {% if module.styles.bg_col %}
+          background-color: {{ color_variant(module.styles.bg_col, -80) }});
         {% endif %}
       }
 
       .button:active {
-        {% if module.styles.bg_color %}
-          background-color: rgba({{ color_variant(module.styles.background.color.color, 80)|convert_rgb }}, {{ module.styles.background.color.opacity / 100 }});
+        {% if module.styles.bg_col %}
+          background-color: {{ color_variant(module.styles.background.bg_col, 80)}}, {{ module.styles.background.bg_col.opacity / 100 }});
         {% endif %}
       }
 
