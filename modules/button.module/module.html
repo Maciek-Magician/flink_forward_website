@@ -15,9 +15,9 @@
       {# Button #}
 
       .button {
-        {% if module.styles.bg_color %}
+        {#{% if module.styles.bg_color %}
           background-color: rgba({{ module.styles.bg_color|convert_rgb }});
-        {% endif %}
+        {% endif %}#}
         {{ module.styles.border.border.css }}
         {% if module.styles.corner.radius >= 0 %}
           border-radius: {{ module.styles.corner.radius ~ "px" }};
@@ -60,7 +60,7 @@
 {# Button #}
 
 <div class="button-wrapper">
-  <a class="button" href="{{ href }}"
+  <a class="button-{{ module.styles.bg_color }}" href="{{ href }}"
   {% if module.link.open_in_new_tab %}target="_blank"{% endif %}
   {% if rel %}rel="{{ rel|join(" ") }}"{% endif %}
   >
