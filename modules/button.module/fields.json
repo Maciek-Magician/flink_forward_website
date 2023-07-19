@@ -109,8 +109,8 @@
         "type" : "choice",
         "display" : "select",
         "multiple":"false",
-        "choices" : [ [ "{{ theme.global_colors.blue.rgba }}", "Blue" ], [ "{{ theme.global_colors.red.rgba }}", "Red" ], [ "{{ theme.global_colors.yellow.rgba }}", "Yellow" ], [ "{{ theme.global_colors.green.rgba }}", "Green" ], ["{{ theme.global_colors.violet.rgba }}", "Violet" ], [ "{{ theme.global_colors.darkblue.rgba }}", "Dark blue" ] ],
-        "default" : "{{ theme.global_colors.blue.rgba }}"
+        "choices" : [ [ "1", "Blue" ], [ "2", "Red" ], [ "3", "Yellow" ], [ "4", "Green" ], ["5", "Violet" ], [ "6", "Dark blue" ] ],
+        "default" : "1"
      }
     ]
   }

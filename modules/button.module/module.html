@@ -14,29 +14,13 @@
 
       {# Button #}
 
-      .button {
-        {% if module.styles.bg_col %}
-          background-color: {{ module.styles.bg_col }};
-        {% endif %}
+      .button-{{ module.styles.bg_col }} {
         {{ module.styles.border.border.css }}
         {% if module.styles.corner.radius >= 0 %}
           border-radius: {{ module.styles.corner.radius ~ "px" }};
         {% endif %}
         {{ module.styles.text.font.css }}
         {{ module.styles.spacing.spacing.css }}
-      }
-
-      .button:hover,
-      .button:focus {
-        {% if module.styles.bg_col %}
-          background-color: {{ color_variant(module.styles.bg_col, -80) }});
-        {% endif %}
-      }
-
-      .button:active {
-        {% if module.styles.bg_col %}
-          background-color: {{ color_variant(module.styles.background.bg_col, 80)}}, {{ module.styles.background.bg_col.opacity / 100 }});
-        {% endif %}
       }
 
     {% end_scope_css %}
@@ -60,7 +44,7 @@
 {# Button #}
 
 <div class="button-wrapper">
-  <a class="button" href="{{ href }}"
+  <a class="button-{{ module.styles.bg_col }}" href="{{ href }}"
   {% if module.link.open_in_new_tab %}target="_blank"{% endif %}
   {% if rel %}rel="{{ rel|join(" ") }}"{% endif %}
   >
