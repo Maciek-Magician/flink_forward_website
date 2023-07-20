@@ -6,6 +6,7 @@ button,
   text-align: center;
   transition: all 0.3s linear;
   white-space: normal;
+  text-decoration: none;
 }
 
 button:disabled,
