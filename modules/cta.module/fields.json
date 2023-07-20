@@ -8,5 +8,69 @@
     "locked": false,
     "type": "cta",
     "default": null
+  },
+  {        
+    "label" : "Background color",
+    "name" : "bg_col",
+    "type" : "choice",
+    "display" : "select",
+    "multiple":"false",
+    "choices" : [ 
+      [ "1", "Blue" ], 
+      [ "2", "Red" ], 
+      [ "3", "Yellow" ], 
+      [ "4", "Green" ], 
+      ["5", "Violet" ], 
+      [ "6", "Dark blue" ] ],
+    "default" : "1"
+ },
+ {        
+    "label" : "Border color",
+    "name" : "border_color",
+    "type" : "choice",
+    "display" : "select",
+    "multiple":"false",
+    "choices" : [ [ "{{theme.global_colors.blue.color}}", "Blue" ], [ "{{theme.global_colors.red.color}}", "Red" ], [ "{{theme.global_colors.yellow.color}}", "Yellow" ], [ "{{theme.global_colors.green.color}}", "Green" ], [ "{{theme.global_colors.violet.color}}", "Violet" ], [ "{{theme.global_colors.darkblue.color}}", "Dark blue" ] ],
+    "default" : "{{theme.global_colors.blue.color}}"
+  },{
+    "label": "Corner",
+    "name": "corner",
+    "type": "group",
+    "children": [
+      {
+        "label": "Radius",
+        "name": "radius",
+        "type": "number",
+        "display": "text",
+        "max": 100,
+        "step": 1,
+        "suffix": "px"
+      }
+    ]
+  },
+  {
+    "label": "Spacing",
+    "name": "spacing",
+    "type": "group",
+    "children": [
+      {
+        "label": "Spacing",
+        "name": "spacing",
+        "type": "spacing"
+      }
+    ]
+  },
+  {
+    "label": "Alignment",
+    "name": "alignment",
+    "type": "group",
+    "children": [
+      {
+        "label": "Alignment",
+        "name": "alignment",
+        "type": "alignment",
+        "alignment_direction": "HORIZONTAL"
+      }
+    ]
   }
 ]
