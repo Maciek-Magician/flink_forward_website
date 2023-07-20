@@ -18,7 +18,10 @@
       {# Button #}
 
       .button-{{ module.bg_col }} {
-        {{ module.styles.border.border.css }}
+      {% if module.border_width %}  
+        border: {{ module.border_width }} solid {{ module.border_color }}
+      {% endif %}
+     {# {{ module.styles.border.border.css }} #}
         {% if module.styles.corner.radius >= 0 %}
           border-radius: {{ module.styles.corner.radius ~ "px" }};
         {% endif %}

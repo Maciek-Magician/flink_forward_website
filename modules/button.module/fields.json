@@ -35,7 +35,7 @@
     "type" : "choice",
     "display" : "select",
     "multiple":"false",
-    "choices" : [ [ "1", "Blue" ], [ "2", "Red" ], [ "3", "Yellow" ], [ "4", "Green" ], ["5", "Violet" ], [ "6", "Dark blue" ] ],
+    "choices" : [ [ "{{theme.global_colors.blue}}", "Blue" ], [ "{{theme.global_colors.red}}", "Red" ], [ "{{theme.global_colors.yellow}}", "Yellow" ], [ "{{theme.global_colors.green}}", "Green" ], ["{{theme.global_colors.violet}}", "Violet" ], [ "{{theme.global_colors.darkblue}}", "Dark blue" ] ],
     "default" : "1"
   },
   {
