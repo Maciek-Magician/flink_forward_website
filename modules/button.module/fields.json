@@ -39,7 +39,7 @@
     "default" : "1"
   },
   {
-    "name" : "border-width",
+    "name" : "border_width",
     "label" : "Border width",
     "required" : false,
     "locked" : false,
