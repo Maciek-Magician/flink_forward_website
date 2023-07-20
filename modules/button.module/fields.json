@@ -104,14 +104,21 @@
         ]
       },
       {        
-        "label" : "Bg Color",
+        "label" : "Background color",
         "name" : "bg_col",
         "type" : "choice",
-        "display" : "select",
-        "multiple":"false",
-        "choices" : [ [ "1", "Blue" ], [ "2", "Red" ], [ "3", "Yellow" ], [ "4", "Green" ], ["5", "Violet" ], [ "6", "Dark blue" ] ],
-        "default" : "1"
-     }
+        "children": [
+          {
+            "label" : "Background color",
+            "name" : "bg_col",
+            "type" : "choice",
+            "display" : "select",
+            "multiple":"false",
+            "choices" : [ [ "1", "Blue" ], [ "2", "Red" ], [ "3", "Yellow" ], [ "4", "Green" ], ["5", "Violet" ], [ "6", "Dark blue" ] ],
+            "default" : "1"
+          }
+        ] 
+      }
     ]
   }
 ]
