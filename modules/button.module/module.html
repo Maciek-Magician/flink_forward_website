@@ -18,8 +18,8 @@
       {# Button #}
 
       .button-{{ module.bg_col }} {
-      {% if module.border_width %}  
-        border: {{ module.border_width }} solid {{ module.border_color }}
+      {% if module.border_width > 0%}  
+        border: {{ module.border_width }}px solid {{ module.border_color }};
       {% endif %}
      {# {{ module.styles.border.border.css }} #}
         {% if module.styles.corner.radius >= 0 %}
