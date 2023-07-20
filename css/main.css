@@ -1,11 +1,17 @@
 /* Theme base styles */
 :root{
-    --blue: {{ theme.global_colors.blue.rgba}};
+    --blue: {{ theme.global_colors.blue.rgba }};
     --red: {{ theme.global_colors.red.rgba}};
     --yellow: {{ theme.global_colors.yellow.rgba}};
     --green: {{ theme.global_colors.green.rgba}};
     --violet: {{ theme.global_colors.violet.rgba}};
     --darkblue: {{ theme.global_colors.darkblue.rgba}};
+    --blue-hover: rgba({{ theme.global_colors.blue.color|convert_rgb }}, .8);
+    --red-hover: rgba({{ theme.global_colors.red.color|convert_rgb }}, .8);
+    --yellow-hover: rgba({{ theme.global_colors.yellow.color|convert_rgb }}, .8);
+    --green-hover: rgba({{ theme.global_colors.green.color|convert_rgb }}, .8);
+    --violet-hover: rgba({{ theme.global_colors.violet.color|convert_rgb }}, .8);
+    --darkblue-hover: rgba({{ theme.global_colors.darkblue.color|convert_rgb }}, .8);
 }
 /* Tools
 Any animations, or functions used throughout the project.

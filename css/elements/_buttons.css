@@ -4,7 +4,7 @@ button,
   cursor: pointer;
   display: inline-block;
   text-align: center;
-  transition: all 0.15s linear;
+  transition: all 0.3s linear;
   white-space: normal;
 }
 
@@ -38,21 +38,40 @@ button:disabled,
   text-decoration: none;
   transition: none;
 }
+
 .button-1{
   background-color: var(--blue);
+}
+.button-1:hover{
+  background-color: var(--blue-hover);
 }
 .button-2{
   background-color: var(--red);
 }
+.button-2:hover{
+  background-color: var(--red-hover);
+}
 .button-3{
   background-color: var(--yellow);
+}
+.button-3:hover{
+  background-color: var(--yellow-hover);
 }
 .button-4{
   background-color: var(--green);
 }
+.button-4:hover{
+  background-color: var(--green-hover);
+}
 .button-5{
   background-color: var(--violet);
 }
+.button-5:hover{
+  background-color: var(--violet-hover);
+}
 .button-6{
   background-color: var(--darkblue);
+}
+.button-6:hover{
+  background-color: var(--darkblue-hover);
 }
