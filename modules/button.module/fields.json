@@ -20,6 +20,15 @@
     "required": true,
     "default": "Add a button link here"
   },
+  {        
+    "label" : "Background color",
+    "name" : "bg_col",
+    "type" : "choice",
+    "display" : "select",
+    "multiple":"false",
+    "choices" : [ [ "1", "Blue" ], [ "2", "Red" ], [ "3", "Yellow" ], [ "4", "Green" ], ["5", "Violet" ], [ "6", "Dark blue" ] ],
+    "default" : "1"
+ },
   {
     "label": "Styles",
     "name": "styles",
@@ -35,18 +44,6 @@
             "label": "Font",
             "name": "font",
             "type": "font"
-          }
-        ]
-      },
-      {
-        "label": "Background",
-        "name": "background",
-        "type": "group",
-        "children": [
-          {
-            "label": "Color",
-            "name": "color",
-            "type": "color"
           }
         ]
       },
@@ -102,22 +99,6 @@
             "alignment_direction": "HORIZONTAL"
           }
         ]
-      },
-      {        
-        "label" : "Background color",
-        "name" : "bg_col",
-        "type" : "choice",
-        "children": [
-          {
-            "label" : "Background color",
-            "name" : "bg_col",
-            "type" : "choice",
-            "display" : "select",
-            "multiple":"false",
-            "choices" : [ [ "1", "Blue" ], [ "2", "Red" ], [ "3", "Yellow" ], [ "4", "Green" ], ["5", "Violet" ], [ "6", "Dark blue" ] ],
-            "default" : "1"
-          }
-        ] 
       }
     ]
   }

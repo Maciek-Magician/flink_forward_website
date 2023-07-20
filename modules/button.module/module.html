@@ -3,7 +3,7 @@
 {% require_css %}
 
   {{ require_css(get_asset_url("../../css/main.css")) }}
-  
+
   <style>
     {% scope_css %}
 
@@ -17,7 +17,7 @@
 
       {# Button #}
 
-      .button-{{ module.styles.bg_col }} {
+      .button-{{ module.bg_col }} {
         {{ module.styles.border.border.css }}
         {% if module.styles.corner.radius >= 0 %}
           border-radius: {{ module.styles.corner.radius ~ "px" }};
@@ -47,7 +47,7 @@
 {# Button #}
 
 <div class="button-wrapper">
-  <a class="button button-{{ module.styles.bg_col }}" href="{{ href }}"
+  <a class="button button-{{ module.bg_col }}" href="{{ href }}"
   {% if module.link.open_in_new_tab %}target="_blank"{% endif %}
   {% if rel %}rel="{{ rel|join(" ") }}"{% endif %}
   >
