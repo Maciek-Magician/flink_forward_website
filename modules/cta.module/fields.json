@@ -20,7 +20,7 @@
       [ "2", "Red" ], 
       [ "3", "Yellow" ], 
       [ "4", "Green" ], 
-      ["5", "Violet" ], 
+      [ "5", "Violet" ], 
       [ "6", "Dark blue" ] ],
     "default" : "1"
  },
@@ -57,19 +57,6 @@
         "label": "Spacing",
         "name": "spacing",
         "type": "spacing"
-      }
-    ]
-  },
-  {
-    "label": "Alignment",
-    "name": "alignment",
-    "type": "group",
-    "children": [
-      {
-        "label": "Alignment",
-        "name": "alignment",
-        "type": "alignment",
-        "alignment_direction": "HORIZONTAL"
       }
     ]
   }
